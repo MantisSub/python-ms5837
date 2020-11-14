@@ -1,10 +1,20 @@
 # ms5837-python
 
-A python module to interface with MS5837-30BA and MS5837-02BA waterproof pressure and temperature sensors. Tested on Raspberry Pi 3 with Raspbian.
+A Python 3 module to interface with MS5837-30BA and MS5837-02BA waterproof pressure and temperature sensors. Tested on Raspberry Pi 3 with Raspbian.
+Forked from https://github.com/bluerobotics/ms5837-python and updated with Python3 support an installation setup script.
 
-The python SMBus library must be installed. https://pypi.org/project/smbus2/
+# Requirements
 
-	pip install smbus2
+Download and install smbus2 library. Steps to install smbus are provided at: https://pypi.org/project/smbus2/
+
+pip3 install smbus2
+
+# Installation
+
+MS5837 is pure Python 3 code and requires no compilation. Installation is easy:
+
+python3 setup.py install
+
 
 # Usage
 
